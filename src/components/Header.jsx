@@ -20,7 +20,7 @@ export function Header() {
     0
   );
   return (
-    <header className='sticky bg-background w-full top-0 justify-between px-6 md:px-20 py-4 lg:px-72 z-20 flex mx-auto '>
+    <header className='sticky bg-background w-full top-0 justify-between px-6 md:px-20 py-4 lg:px-64 z-20 flex mx-auto '>
       <h1 className='text-3xl font-bold'>
         <a href='/'>ShopNow</a>
       </h1>

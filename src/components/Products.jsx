@@ -1,6 +1,5 @@
 import { CartAddIcon } from '../assets/icons/CartAddIcon';
 import { useContext } from 'react';
-import { useProducts } from '../hooks/useProducts';
 import { AppContext } from '../context/AppContext';
 import './Loader.css';
 
