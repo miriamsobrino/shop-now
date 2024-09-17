@@ -3,7 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 html {
   width: 100%;
   margin: 0 auto;
@@ -11,6 +15,6 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-.scrollbar-hidden::-webkit-scrollbar {
+/*.scrollbar-hidden::-webkit-scrollbar {
   display: none;
-}
+}*/
