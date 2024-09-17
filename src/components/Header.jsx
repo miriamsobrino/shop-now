@@ -20,14 +20,14 @@ export function Header() {
     0
   );
   return (
-    <header className='sticky bg-background w-full top-0 justify-between px-6 md:px-20 py-4 lg:px-64 z-20 flex mx-auto '>
+    <header className='sticky bg-background w-full top-0 justify-between px-6 md:px-20 py-4 lg:px-52 xl:px-64 z-20 flex mx-auto '>
       <h1 className='text-3xl font-bold'>
         <a href='/shop-now/'>ShopNow</a>
       </h1>
       <CartIcon className=' cursor-pointer' onClick={() => showCart()} />
       {productsCart.length > 0 && (
         <button
-          className=' absolute bg-red-500 rounded-full h-6 w-6 right-2 md:right-16 lg:right-60 top-2 flex items-center justify-center'
+          className=' absolute bg-red-500 rounded-full h-6 w-6 right-2 md:right-16 lg:right-48 xl:right-60 top-2 flex items-center justify-center'
           onClick={() => showCart()}
         >
           <span className='text-white text-sm font-bold '>

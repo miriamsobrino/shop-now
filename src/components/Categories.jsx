@@ -6,7 +6,7 @@ export function Categories() {
     useContext(AppContext);
 
   return (
-    <section className='flex gap-2 p-2 lg:gap-4 lg:p-0 md:px-20 lg:max-w-[70%] mx-auto mt-4'>
+    <section className='flex gap-2 px-6  lg:gap-4 lg:px-52 md:px-20 lg:w-[100%] lg:mx-auto xl:px-0 xl:max-w-[70%] mx-auto mt-4'>
       {categories.map((category, index) => (
         <button
           key={index}

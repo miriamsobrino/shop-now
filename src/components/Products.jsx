@@ -9,11 +9,11 @@ export function Products() {
 
   return (
     <div className='flex flex-col justify-center my-10 mx-auto w-full md:w-[80%] lg:max-w-[70%]'>
-      <section className='grid grid-cols-1 md:grid-cols-3  lg:grid-cols-5 gap-10 place-items-center  mb-8 '>
+      <section className='grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 xl:grid-cols-5  gap-10 place-items-center  mb-8 '>
         {products.map((product) => (
           <article
             key={product.id}
-            className='flex flex-col justify-start items-center gap-4 border-2 bg-white border-gray-100 rounded-md w-56 h-[340px] relative  p-4 text-center shadow-md hover:scale-105 transition-all duration-200'
+            className='flex flex-col justify-start items-center gap-4 border-2 bg-white border-gray-100 rounded-md w-72 lg:w-56 h-[340px] relative  p-4 text-center shadow-md hover:scale-105 transition-all duration-200'
           >
             <img
               src={product.image}
