@@ -32,8 +32,10 @@ export function AppContextProvider({ children }) {
     const fetchProducts = async () => {
       try {
         setLoading(true);
+        setLoadMore(false);
         const data = await getProducts(limit, selectedCategory);
         setProducts(data);
+        setLoadMore(true);
         if (data.length < limit) {
           setLoadMore(false);
         }
