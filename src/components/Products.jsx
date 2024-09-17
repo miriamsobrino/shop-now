@@ -36,7 +36,7 @@ export function Products() {
           </article>
         ))}
       </section>
-      {loadMore && !loading && (
+      {loadMore && !loading && products && (
         <button
           onClick={loadMoreProducts}
           className='mx-auto p-2 bg-gray-400 text-white rounded hover:bg-gray-300 text-sm '
